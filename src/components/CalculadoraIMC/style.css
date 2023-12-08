@@ -1,0 +1,63 @@
+body{
+    background-color:#3d3d3d ;
+}
+
+.container{
+    font-family: sans-serif;
+    padding: 50px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.calculadora{
+    padding: 24px;
+    display: flex;
+    background-color: rgb(228, 154, 18);
+    justify-content: center;
+    display: grid;
+    font-size: 20px;
+
+    .campoPeso{
+        margin-top: 10px;
+    }
+
+    .alturaInput{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .pesoInput{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .botao{
+        margin-top: 10px;
+        background-color: #fff;
+        border: none;
+        padding: 10px 0px;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100%;
+
+        
+    }
+    
+    .botao:hover{
+        background-color: #e4e4e4;
+        cursor: pointer;
+    }
+    
+}
+
+.resultado{
+    background-color: #fff;
+    color: #111;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
